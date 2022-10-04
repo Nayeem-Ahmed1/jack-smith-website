@@ -17,6 +17,9 @@ body{
 }
 .half-width img{
     width: 85%;
+    display: inline-block;
+    position: relative;
+    bottom: 35px
 }
 .top-header p a{
     text-decoration: none;
@@ -68,4 +71,42 @@ body{
     width: 90%;
     display: block;
     margin-left: 20%;
+}
+.footer{
+    text-align: center;
+    background-image: url(/images/footer-bg.png);
+    background-size: contain;
+}
+.footer h6{
+    margin-top: -10px;
+    opacity: 0.8;
+}
+.footer p{
+    opacity: 0.9;
+}
+.footer-box{
+    height: 5.5em;
+    width: 29em;
+    background-image: linear-gradient(60deg,#EC4C7A, #dd6587);
+    background-size: cover;
+    color: white;
+    border: 5px solid #dd6587;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-box a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.footer-box p{
+    font-size: 12px;
+}
+.copywrite{
+    font-size: 12px;
+    opacity: 0.4;
 }
