@@ -3,7 +3,7 @@ body{
 }
 .top-header{
   height: 37em;
-  background-image: url("/images/header-bg.png");
+  background-image: url("/jack-smith-website/images/header-bg.png");
   background-size: contain;
 }
 #jack-name{
@@ -42,7 +42,7 @@ body{
     border-radius: 8%;
 }
 .header2{
-    background-image: url(/images/biography-bg.png);
+    background-image: url(/jack-smith-website/images/biography-bg.png);
     height: 37em;
     background-size: contain;
 }
@@ -58,7 +58,7 @@ body{
     top: 20px;
 }
 .middle{
-    background-image: url(/images/latest-work-bg.png);
+    background-image: url(/jack-smith-website/images/latest-work-bg.png);
     height: 37em;
     background-repeat: no-repeat;
     background-size: contain;
@@ -74,7 +74,7 @@ body{
 }
 .footer{
     text-align: center;
-    background-image: url(/images/footer-bg.png);
+    background-image: url(/jack-smith-website/images/footer-bg.png);
     background-size: contain;
 }
 .footer h6{
